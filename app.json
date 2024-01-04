@@ -1,12 +1,12 @@
 {
-    "name": "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ",
+    "name": "𝙅𝙞𝙧𝙖𝙞𝙮𝙖 ✘ 𝙈𝙪𝙨𝙞𝙘",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg",
+    "logo": "https://telegra.ph/file/100f02810d3a18cdd4feb.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "AnonX",
+    "JiraiyaX",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
