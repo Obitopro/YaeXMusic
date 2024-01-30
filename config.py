@@ -7,28 +7,28 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("24658337"))
+API_HASH = getenv("bf99242dbb7f3501f28d39f0a0383cbf")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6444935129:AAGmLtUrxj03_xbijnVBE_Ef-f9JjrG1-kQ")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://itachi:itachi@itachi.hyhnjlq.mongodb.net/?retryWrites=true&w=majority", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002037503706", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 1356469075))
+OWNER_ID = int(getenv("5490773419")
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("YAE X MUSIC")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("11de3676-284d-4d86-acfd-a754d6ad5271")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Savage_bot_support")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Anime_Savage_Group")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/yaemikologs")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/yae_support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -70,7 +70,6 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 
 BANNED_USERS = filters.user()
-adminlist = {}
 lyrical = {}
 votemode = {}
 autoclean = []
@@ -78,10 +77,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/100f02810d3a18cdd4feb.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/cfc2971662ab9f0e6854d.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/df1bd717dd674ac669594.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f8abaa00e1a953eb0e036.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/9a81db9701f6c5a6a5191.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/9a81db9701f6c5a6a5191.jpg"
